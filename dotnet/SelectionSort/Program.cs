@@ -3,11 +3,11 @@ using static Infrastructure;
 
 // int[] array = CreateArray(10);
 // Show(array);
-// SortSelection(array);
+// SortSelection(array);                Это не работает с параметром this, чтобы этот код заработал нужно его убрать и сделать методы void
 // Show(array);
 
-10.CreateArray(min: 10, max: 30)
-  .Show(", ")
-  .SortSelection()
-  .Show(",");
+// 15.CreateArray(min: 0, max: 30)
+//   .Show(", ")
+//   .SortSelection()
+//   .Show(", ");
 
